@@ -1,0 +1,46 @@
+{
+  "name": "jesse-templatetest",
+  "version": "0.1.0",
+  "author": "jesse",
+  "summary": "",
+  "license": "Apache-2.0",
+  "source": "",
+  "dependencies": [
+
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "8"
+      ]
+    },
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "7.0"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "16.04"
+      ]
+    },
+    {
+      "operatingsystem": "windows",
+      "operatingsystemrelease": [
+        "2012 R2"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.7.0 < 6.0.0"
+    }
+  ],
+  "pdk-version": "1.9.0.pre (heads/maint_bump_default_ruby_version-0-g6ee6f01)",
+  "template-url": "file:///Users/jesse/src/sdk/pdk-templates",
+  "template-ref": "heads/master-0-g40dfcc5"
+}
